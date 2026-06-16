@@ -5,7 +5,7 @@ Detects engineering symbols and associates OCR text (equipment tags)
 with detected symbols on a P&ID diagram image.
 
 Usage:
-    python pid_pipeline.py --image path/to/diagram.jpg --yaml dataset.yaml --weights model/checkpoint_best_total.pth
+    python pid_pipeline_.py --image path/to/diagram.jpg --yaml dataset.yaml --weights model/checkpoint_best_total.pth
 
 Dependencies:
     pip install paddleocr rfdetr sahi scipy opencv-python-headless pillow pyyaml matplotlib
